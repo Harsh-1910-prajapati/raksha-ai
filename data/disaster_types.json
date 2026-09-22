@@ -1,0 +1,52 @@
+{
+  "disasterTypes": [
+    {
+      "id": "CYCLONE",
+      "name": "Cyclone",
+      "description": "Tropical cyclone with strong winds, heavy rainfall and storm surge.",
+      "defaults": {
+        "windSpeed": 140,
+        "rainfall": 220,
+        "stormSurge": 2.5,
+        "impactRadius": 80,
+        "durationHours": 12
+      },
+      "windSpeedUnit": "km/h",
+      "rainfallUnit": "mm",
+      "stormSurgeUnit": "m",
+      "radiusUnit": "km"
+    },
+    {
+      "id": "FLOOD",
+      "name": "River / Coastal Flood",
+      "description": "Persistent rainfall or high river flow causing inundation.",
+      "defaults": {
+        "windSpeed": 0,
+        "rainfall": 180,
+        "stormSurge": 0.5,
+        "impactRadius": 60,
+        "durationHours": 24
+      },
+      "windSpeedUnit": "km/h",
+      "rainfallUnit": "mm",
+      "stormSurgeUnit": "m",
+      "radiusUnit": "km"
+    },
+    {
+      "id": "EXTREME_RAINFALL",
+      "name": "Extreme Rainfall",
+      "description": "Very heavy rainfall over a short window causing urban flooding.",
+      "defaults": {
+        "windSpeed": 0,
+        "rainfall": 320,
+        "stormSurge": 0,
+        "impactRadius": 40,
+        "durationHours": 8
+      },
+      "windSpeedUnit": "km/h",
+      "rainfallUnit": "mm",
+      "stormSurgeUnit": "m",
+      "radiusUnit": "km"
+    }
+  ]
+}

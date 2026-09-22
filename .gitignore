@@ -1,0 +1,35 @@
+# --- secrets -----------------------------------------------------------------
+.env
+.env.local
+*.env
+.env.*
+!.env.example
+
+backend/.env
+frontend/.env.local
+
+# --- python -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- node / next ---------------------------------------------------------------
+node_modules/
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# --- misc ----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+*.iml

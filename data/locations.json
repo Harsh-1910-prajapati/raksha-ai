@@ -1,0 +1,184 @@
+{
+  "note": "Demo location catalogue for the RakshaAI prototype. District metrics (elevation, population, coastal/flood-prone flags) are approximate model inputs derived from public domain resources and are labelled DEMO DATA. They are not official government statistics.",
+  "states": [
+    {
+      "id": "ap",
+      "name": "Andhra Pradesh",
+      "coastal": true,
+      "districts": [
+        {
+          "id": "visakhapatnam",
+          "name": "Visakhapatnam",
+          "latitude": 17.6868,
+          "longitude": 83.2185,
+          "meanElevationM": 45,
+          "coastal": true,
+          "floodProne": "moderate",
+          "population": 4300000,
+          "populationSqKm": 340,
+          "areaSqKm": 11161
+        },
+        {
+          "id": "krishna",
+          "name": "Krishna",
+          "latitude": 16.5062,
+          "longitude": 80.6480,
+          "meanElevationM": 24,
+          "coastal": true,
+          "floodProne": "high",
+          "population": 4517398,
+          "populationSqKm": 375,
+          "areaSqKm": 8727
+        },
+        {
+          "id": "srikakulam",
+          "name": "Srikakulam",
+          "latitude": 18.2951,
+          "longitude": 83.8983,
+          "meanElevationM": 32,
+          "coastal": true,
+          "floodProne": "high",
+          "population": 2703114,
+          "populationSqKm": 290,
+          "areaSqKm": 5837
+        }
+      ]
+    },
+    {
+      "id": "od",
+      "name": "Odisha",
+      "coastal": true,
+      "districts": [
+        {
+          "id": "puri",
+          "name": "Puri",
+          "latitude": 19.8135,
+          "longitude": 85.8312,
+          "meanElevationM": 10,
+          "coastal": true,
+          "floodProne": "high",
+          "population": 1698730,
+          "populationSqKm": 290,
+          "areaSqKm": 3479
+        },
+        {
+          "id": "balaMur",
+          "name": "Balasore",
+          "latitude": 21.4944,
+          "longitude": 86.938,
+          "meanElevationM": 18,
+          "coastal": true,
+          "floodProne": "moderate",
+          "population": 2317419,
+          "populationSqKm": 300,
+          "areaSqKm": 3634
+        },
+        {
+          "id": "kendrapara",
+          "name": "Kendrapara",
+          "latitude": 20.5017,
+          "longitude": 86.4238,
+          "meanElevationM": 6,
+          "coastal": true,
+          "floodProne": "high",
+          "population": 1440364,
+          "populationSqKm": 260,
+          "areaSqKm": 2644
+        }
+      ]
+    },
+    {
+      "id": "wb",
+      "name": "West Bengal",
+      "coastal": true,
+      "districts": [
+        {
+          "id": "south24pgs",
+          "name": "South 24 Parganas",
+          "latitude": 22.0333,
+          "longitude": 88.3,
+          "meanElevationM": 6,
+          "coastal": true,
+          "floodProne": "high",
+          "population": 8161961,
+          "populationSqKm": 980,
+          "areaSqKm": 9960
+        },
+        {
+          "id": "purbaMedinipur",
+          "name": "Purba Medinipur",
+          "latitude": 22.3006,
+          "longitude": 87.902,
+          "meanElevationM": 5,
+          "coastal": true,
+          "floodProne": "high",
+          "population": 5095875,
+          "populationSqKm": 510,
+          "areaSqKm": 4713
+        }
+      ]
+    },
+    {
+      "id": "tn",
+      "name": "Tamil Nadu",
+      "coastal": true,
+      "districts": [
+        {
+          "id": "chennai",
+          "name": "Chennai",
+          "latitude": 13.0827,
+          "longitude": 80.2707,
+          "meanElevationM": 7,
+          "coastal": true,
+          "floodProne": "high",
+          "population": 7092000,
+          "populationSqKm": 2700,
+          "areaSqKm": 426
+        },
+        {
+          "id": "nagapattinam",
+          "name": "Nagapattinam",
+          "latitude": 10.7676,
+          "longitude": 79.8424,
+          "meanElevationM": 3,
+          "coastal": true,
+          "floodProne": "critical",
+          "population": 1616721,
+          "populationSqKm": 320,
+          "areaSqKm": 2715
+        }
+      ]
+    },
+    {
+      "id": "gj",
+      "name": "Gujarat",
+      "coastal": true,
+      "districts": [
+        {
+          "id": "kutch",
+          "name": "Kachchh",
+          "latitude": 23.242,
+          "longitude": 69.6669,
+          "meanElevationM": 110,
+          "coastal": true,
+          "floodProne": "moderate",
+          "population": 2092371,
+          "populationSqKm": 80,
+          "areaSqKm": 45674
+        },
+        {
+          "id": "valsad",
+          "name": "Valsad",
+          "latitude": 20.6099,
+          "longitude": 72.9099,
+          "meanElevationM": 15,
+          "coastal": true,
+          "floodProne": "moderate",
+          "population": 1705678,
+          "populationSqKm": 480,
+          "areaSqKm": 3008
+        }
+      ]
+    }
+  ]
+}
